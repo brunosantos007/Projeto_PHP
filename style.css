@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* MENU */
+#navbar{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+#navbar li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* MAIN */
+.container-conteudos{
+    display: flex;
+    flex-direction: column;
+}
+.container-caixa{
+    text-align: center;
+}
+.container-caixa img{
+    max-width: 50%;
+    margin-top: 100px;
+}
+
+.tags-container a{
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.titles{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+/* ASIDE */
+
+.nav-aside{
+    position: absolute;
+    left: 75%;
+    top: 15%;
+    max-width: 50%; 
+}
+.nav-aside ul{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.nav-aside ul a{
+    padding: 10px;
+}
+
+.cor-tags{
+    background-color: black;
+    color: white;
+}
+
+#organizando{
+    display: inline-block;
+    max-width: 50%;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+#organizando h1{
+    margin-bottom: 20px;
+}
+
